@@ -13,7 +13,7 @@ def test_setup(request):
     caps["platformVersion"] = "11"
     caps["app"] = "lt://APP10020521645537467103592"
     caps["isRealMobile"] = True
-    caps['build'] = build
+    caps['build'] = "GA-pytest"
     caps['name'] = test_name
     driver = webdriver.Remote("https://varunkumarb:INT82w25sXWN25PWwrXKAcvogbehMm4jacxIOsr2l2c97TDgYR@mobile-hub.lambdatest.com/wd/hub", caps)
     request.cls.driver = driver
