@@ -11,7 +11,7 @@ def test_setup(request):
     caps["deviceName"] = "Galaxy S21 Ultra 5G"
     caps["platformName"] = "Android"
     caps["platformVersion"] = "11"
-    caps["app"] = "app_URL"
+    caps["app"] = "lt://APP10160532421657718282795687"
     caps["isRealMobile"] = True
     caps['build'] = "GA-pytest"
     caps['name'] = test_name
