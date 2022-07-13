@@ -11,11 +11,11 @@ def test_setup(request):
     caps["deviceName"] = "Galaxy S21 Ultra 5G"
     caps["platformName"] = "Android"
     caps["platformVersion"] = "11"
-    caps["app"] = "lt://APP10160532421657718282795687"
+    caps["app"] = "App_URL"
     caps["isRealMobile"] = True
     caps['build'] = "GA-pytest"
     caps['name'] = test_name
-    driver = webdriver.Remote("https://varunkumarb:doLbtRzYpWdpD1xxcIQdByQ1b7kmqMNg43DrpsYwGxbPBtphNU@mobile-hub.lambdatest.com/wd/hub",caps)
+    driver = webdriver.Remote("https://username:access_key@mobile-hub.lambdatest.com/wd/hub",caps)
     request.cls.driver = driver
     
     yield driver
