@@ -10,4 +10,6 @@ class TestLink:
     def test_2(self):
         el2 = self.driver.find_element_by_id("com.lambdatest.proverbial:id/Text")
         el2.click()
+        
+        
     
